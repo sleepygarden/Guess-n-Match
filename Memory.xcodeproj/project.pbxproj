@@ -15,6 +15,17 @@
 		E07F08EA152C0DD900EAF2EC /* basicsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E07F08E9152C0DD900EAF2EC /* basicsAppDelegate.m */; };
 		E07F08ED152C0DD900EAF2EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07F08EB152C0DD900EAF2EC /* MainStoryboard.storyboard */; };
 		E07F08F0152C0DD900EAF2EC /* basicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07F08EF152C0DD900EAF2EC /* basicsViewController.m */; };
+		E07F08FF152C1E3100EAF2EC /* cardfrontpear.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F08F7152C1E3100EAF2EC /* cardfrontpear.png */; };
+		E07F0900152C1E3100EAF2EC /* cardfrontorange.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F08F8152C1E3100EAF2EC /* cardfrontorange.png */; };
+		E07F0901152C1E3100EAF2EC /* cardback.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F08F9152C1E3100EAF2EC /* cardback.png */; };
+		E07F0902152C1E3100EAF2EC /* cardfrontapple.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F08FA152C1E3100EAF2EC /* cardfrontapple.png */; };
+		E07F0903152C1E3100EAF2EC /* cardfrontcherry.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F08FB152C1E3100EAF2EC /* cardfrontcherry.png */; };
+		E07F0904152C1E3100EAF2EC /* cardfrontlemon.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F08FC152C1E3100EAF2EC /* cardfrontlemon.png */; };
+		E07F0905152C1E3100EAF2EC /* cardfrontplum.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F08FD152C1E3100EAF2EC /* cardfrontplum.png */; };
+		E07F0906152C1E3100EAF2EC /* cardfrontstrawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F08FE152C1E3100EAF2EC /* cardfrontstrawberry.png */; };
+		E07F090C152C260700EAF2EC /* woodtexture.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F090B152C260700EAF2EC /* woodtexture.png */; };
+		E07F0925152CC8D200EAF2EC /* cardfrontbanana.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F0924152CC8D200EAF2EC /* cardfrontbanana.png */; };
+		E07F092B152DFB1200EAF2EC /* cardcheck.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F092A152DFB1200EAF2EC /* cardcheck.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +33,26 @@
 		E07F08D9152C0DD900EAF2EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E07F08DB152C0DD900EAF2EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E07F08DD152C0DD900EAF2EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E07F08E1152C0DD900EAF2EC /* Memory-Info.plist */ = {isa = PBXFileReference; path = "Memory-Info.plist"; sourceTree = "<group>"; };
+		E07F08E1152C0DD900EAF2EC /* Memory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Memory-Info.plist"; sourceTree = "<group>"; };
 		E07F08E3152C0DD900EAF2EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E07F08E5152C0DD900EAF2EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E07F08E7152C0DD900EAF2EC /* Memory-Prefix.pch */ = {isa = PBXFileReference; path = "Memory-Prefix.pch"; sourceTree = "<group>"; };
-		E07F08E8152C0DD900EAF2EC /* basicsAppDelegate.h */ = {isa = PBXFileReference; path = basicsAppDelegate.h; sourceTree = "<group>"; };
+		E07F08E7152C0DD900EAF2EC /* Memory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memory-Prefix.pch"; sourceTree = "<group>"; };
+		E07F08E8152C0DD900EAF2EC /* basicsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = basicsAppDelegate.h; sourceTree = "<group>"; };
 		E07F08E9152C0DD900EAF2EC /* basicsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = basicsAppDelegate.m; sourceTree = "<group>"; };
 		E07F08EC152C0DD900EAF2EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E07F08EE152C0DD900EAF2EC /* basicsViewController.h */ = {isa = PBXFileReference; path = basicsViewController.h; sourceTree = "<group>"; };
+		E07F08EE152C0DD900EAF2EC /* basicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = basicsViewController.h; sourceTree = "<group>"; };
 		E07F08EF152C0DD900EAF2EC /* basicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = basicsViewController.m; sourceTree = "<group>"; };
+		E07F08F7152C1E3100EAF2EC /* cardfrontpear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardfrontpear.png; sourceTree = "<group>"; };
+		E07F08F8152C1E3100EAF2EC /* cardfrontorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardfrontorange.png; sourceTree = "<group>"; };
+		E07F08F9152C1E3100EAF2EC /* cardback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardback.png; sourceTree = "<group>"; };
+		E07F08FA152C1E3100EAF2EC /* cardfrontapple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardfrontapple.png; sourceTree = "<group>"; };
+		E07F08FB152C1E3100EAF2EC /* cardfrontcherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardfrontcherry.png; sourceTree = "<group>"; };
+		E07F08FC152C1E3100EAF2EC /* cardfrontlemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardfrontlemon.png; sourceTree = "<group>"; };
+		E07F08FD152C1E3100EAF2EC /* cardfrontplum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardfrontplum.png; sourceTree = "<group>"; };
+		E07F08FE152C1E3100EAF2EC /* cardfrontstrawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardfrontstrawberry.png; sourceTree = "<group>"; };
+		E07F090B152C260700EAF2EC /* woodtexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woodtexture.png; sourceTree = "<group>"; };
+		E07F0924152CC8D200EAF2EC /* cardfrontbanana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardfrontbanana.png; sourceTree = "<group>"; };
+		E07F092A152DFB1200EAF2EC /* cardcheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardcheck.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +72,7 @@
 		E07F08CA152C0DD800EAF2EC = {
 			isa = PBXGroup;
 			children = (
+				E07F08F6152C1E0E00EAF2EC /* Images */,
 				E07F08DF152C0DD900EAF2EC /* Memory */,
 				E07F08D8152C0DD900EAF2EC /* Frameworks */,
 				E07F08D6152C0DD900EAF2EC /* Products */,
@@ -96,6 +119,24 @@
 				E07F08E7152C0DD900EAF2EC /* Memory-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E07F08F6152C1E0E00EAF2EC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E07F090B152C260700EAF2EC /* woodtexture.png */,
+				E07F0924152CC8D200EAF2EC /* cardfrontbanana.png */,
+				E07F08F7152C1E3100EAF2EC /* cardfrontpear.png */,
+				E07F08F8152C1E3100EAF2EC /* cardfrontorange.png */,
+				E07F08F9152C1E3100EAF2EC /* cardback.png */,
+				E07F092A152DFB1200EAF2EC /* cardcheck.png */,
+				E07F08FA152C1E3100EAF2EC /* cardfrontapple.png */,
+				E07F08FB152C1E3100EAF2EC /* cardfrontcherry.png */,
+				E07F08FC152C1E3100EAF2EC /* cardfrontlemon.png */,
+				E07F08FD152C1E3100EAF2EC /* cardfrontplum.png */,
+				E07F08FE152C1E3100EAF2EC /* cardfrontstrawberry.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +191,17 @@
 			files = (
 				E07F08E4152C0DD900EAF2EC /* InfoPlist.strings in Resources */,
 				E07F08ED152C0DD900EAF2EC /* MainStoryboard.storyboard in Resources */,
+				E07F08FF152C1E3100EAF2EC /* cardfrontpear.png in Resources */,
+				E07F0900152C1E3100EAF2EC /* cardfrontorange.png in Resources */,
+				E07F0901152C1E3100EAF2EC /* cardback.png in Resources */,
+				E07F0902152C1E3100EAF2EC /* cardfrontapple.png in Resources */,
+				E07F0903152C1E3100EAF2EC /* cardfrontcherry.png in Resources */,
+				E07F0904152C1E3100EAF2EC /* cardfrontlemon.png in Resources */,
+				E07F0905152C1E3100EAF2EC /* cardfrontplum.png in Resources */,
+				E07F0906152C1E3100EAF2EC /* cardfrontstrawberry.png in Resources */,
+				E07F090C152C260700EAF2EC /* woodtexture.png in Resources */,
+				E07F0925152CC8D200EAF2EC /* cardfrontbanana.png in Resources */,
+				E07F092B152DFB1200EAF2EC /* cardcheck.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +326,7 @@
 				E07F08F5152C0DD900EAF2EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
